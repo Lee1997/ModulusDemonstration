@@ -16,12 +16,12 @@ public class AlertBox {
 		
 		window.initModality(Modality.APPLICATION_MODAL);
 		window.setTitle(title);
-		window.setMinWidth(300);
+		window.setMinWidth(320);
 		window.setMinHeight(200);
 		
 		Label label = new Label(message);
 		
-		Button closeButton = new Button("Close the window.");
+		Button closeButton = new Button("I will fix it!");
 		closeButton.setOnAction(e -> window.close());
 		
 		VBox layout = new VBox(10);
